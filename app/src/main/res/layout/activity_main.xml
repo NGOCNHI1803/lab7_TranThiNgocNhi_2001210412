@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:background="#B66E87"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:text="Menu_Lab7" />
+
+    <Button
+        android:id="@+id/btnBai1TL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Context_Menu_Bai1" />
+
+    <Button
+        android:id="@+id/btnBai2TL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="ContextMenu_ListView" />
+
+    <Button
+        android:id="@+id/btnBai3TL"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Bottom Navigation view" />
+
+
+
+    <Button
+        android:id="@+id/btnBai4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Navigation DrawerLayout" />
+    <Button
+        android:id="@+id/btnBai5VN"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Fragment Navigation TableLayout" />
+    <Button
+        android:id="@+id/btnBai6VN"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Fragment DrawerLayout Navigation" />
+
+
+</LinearLayout>

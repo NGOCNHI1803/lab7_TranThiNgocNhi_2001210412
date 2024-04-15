@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="dark_gray">#696969</color>
+    <color name="colorPrimary">#7b4bff</color>
+    <color name="colorPrimaryDark">#6539ba</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="Peterriver">#3498DB</color>
+    <color name="bgPrimary">#4BD6E8</color>
+    <color name="bgdarkPrimary">#7EDFEC</color>
+    <color name="bgIcon">#FFFF33</color>
+</resources>

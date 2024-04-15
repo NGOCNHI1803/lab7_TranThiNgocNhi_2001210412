@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:background="@drawable/list_item_selector"
+        android:icon="@android:drawable/stat_sys_warning"/>
+    <item
+        android:id="@+id/app_bar_No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Notification"
+        android:background="@drawable/list_item_selector"
+        android:icon="@drawable/notification"/>
+    <item
+        android:id="@+id/app_Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Search"
+        android:background="@drawable/list_item_selector"
+        android:icon="@drawable/search"/>
+    <item
+        android:id="@+id/app_bar_Cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Cafe"
+        android:background="@drawable/list_item_selector"
+        android:icon="@drawable/coffee"/>
+</menu>

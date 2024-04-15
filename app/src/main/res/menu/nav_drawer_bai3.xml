@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        >
+        <item
+            android:id="@+id/app_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/app_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+
+
+    </group>
+    <group
+         >
+        <item
+            android:id="@+id/app_slide"
+            android:icon="@drawable/slideshow"
+            android:title="Slide Show"/>
+
+        <item
+            android:id="@+id/app_share"
+            android:icon="@drawable/share"
+            android:title="Share" >
+            <menu
+                 >
+                <item
+                    android:id="@+id/app_mail"
+                    android:icon="@drawable/email"
+                    android:title="Mail" />
+                <item
+                    android:id="@+id/bluetooth"
+                    android:icon="@drawable/bluetooth"
+                    android:title="Bluetooth"/>
+            </menu>
+        </item>
+    </group>
+</menu>
